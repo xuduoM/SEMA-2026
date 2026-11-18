@@ -96,8 +96,6 @@ Publish datasets or results separately through an archival service if they are n
 
 ## Citation
 
-Update `CITATION.cff` with the final paper title, authors, repository URL, and publication metadata before publishing.
-
 ## License
 
 The code is provided under the MIT License. Third-party software, game assets, maps, models, and services remain subject to their own terms.
