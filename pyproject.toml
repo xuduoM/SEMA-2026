@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "esma-rts"
+version = "0.1.0"
+description = "Research code for structural-information-guided LLM agents in real-time strategy environments."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "ESMA Authors" }]
+keywords = ["large-language-models", "multi-agent-systems", "starcraft-ii", "structural-information"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+  "burnysc2>=5.0.15",
+  "networkx>=3.0",
+  "numba>=0.57",
+  "numpy>=1.24",
+  "openai>=1.0",
+  "sentence-transformers>=2.2",
+  "tiktoken>=0.5",
+]
+
+[project.urls]
+Repository = "https://github.com/REPLACE_WITH_OWNER/ESMA"
+Issues = "https://github.com/REPLACE_WITH_OWNER/ESMA/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
